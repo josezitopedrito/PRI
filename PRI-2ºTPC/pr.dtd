@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT pr (mainTitle,cabeçalho,workTeam,abstract,deliverables) >
+
+<!ELEMENT mainTitle (#PCDATA) >
+
+<!ELEMENT cabeçalho (keyName,title,subtitle?,beginDate,endDate,supervisor) >
+
+<!ELEMENT keyName (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT subtitle (#PCDATA) >
+<!ELEMENT beginDate (#PCDATA) >
+<!ELEMENT endDate (#PCDATA) >
+<!ELEMENT supervisor (#PCDATA) >
+<!ATTLIST supervisor
+                path CDATA #REQUIRED>
+
+
+<!ELEMENT workTeam (pessoa+) >
+
+<!ELEMENT pessoa (num,name,mail) >
+
+<!ELEMENT num (#PCDATA) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT mail (#PCDATA) >
+
+<!ELEMENT abstract (par+) >
+
+<!ELEMENT par (#PCDATA|bold|italic|link)* >
+
+<!ELEMENT bold (#PCDATA) >
+<!ELEMENT italic (#PCDATA) >
+
+<!ELEMENT deliverables (link+) >
+
+<!ELEMENT link (#PCDATA) >
+<!ATTLIST link
+            path CDATA #REQUIRED>
+            
+            

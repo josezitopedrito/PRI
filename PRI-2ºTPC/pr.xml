@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/home/ze/Oxygen%20XML%20Editor%2021/pr.dtd">
+<pr>
+    <mainTitle>Project Record</mainTitle>
+    <cabeçalho>
+        <keyName>TPC2</keyName>
+        <title>Schema e Stylesheet para tratamento de teses em XML</title>
+        <subtitle>Relatório elaborado acerca do segundo TPC da UC de PRI</subtitle>
+        <beginDate>30 de Setembro 2019</beginDate>
+        <endDate>7 de Outubro de 2019</endDate>
+        <supervisor path="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </cabeçalho>
+    <workTeam>
+        <pessoa>
+            <num>1</num>
+            <name>José Pedro Saraiva de Carvalho</name>
+            <mail>a80424@alunos.uminho.pt</mail>
+        </pessoa>
+    </workTeam>
+    <abstract>
+        <par>Na mesma diretoria desde manifesto estão mais 3 ficheiros, (1 Document Type Definition e 2 de texto). Estes serão explicaos nos parágrafos seguintes.</par>
+        <par>No ficheiro <link path="./pr.dtd">pr.dtd</link> encontra-se o DTD necessário para a elaboraçao deste manifesto em XML. </par>
+        <par>No ficheiro <link path="./agenda.txt">agenda.txt</link> encontram-se apresentadas as resoluções das <link path="http://www4.di.uminho.pt/~jcr/XML/CURSOS/PED2008/fichas/ficha3/e5.html">queries propostas</link> acerca da <link path="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/agenda.xml">agenda de contactos</link></par>
+        <par>No ficheiro <link path="./agenda.txt">agenda.txt</link> encontram-se apresentadas as resoluções das <link path="http://www4.di.uminho.pt/~jcr/XML/CURSOS/PED2008/fichas/ficha3/e6.html">queries propostas</link> acerca da <link path="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/arq.xml">Arqeussítios do Nordeste Potuguês</link></par>
+    </abstract>
+    <deliverables>
+        <link path="./pr.dtd">Document Type Definition do manifesto</link>
+        <link path="./agenda.txt">Ficheiro de texto relativo às queries acerca da agenda de contactos</link>
+        <link path="./arq.txt">Ficheiro de texto relativo às queries acerca dos Arqueossítios do Nordeste Português</link>
+    </deliverables>
+</pr>
