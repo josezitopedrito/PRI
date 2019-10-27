@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "../pr_final.dtd">
+<pr>
+    <meta>
+        <keyName>PRI2019-A80424-T4</keyName>
+        <title>Stylesheet para a elaboração do servidor em nodejs acerca do arquivo sonoro</title>
+        <bDate>21 de outubro de 2019</bDate>
+        <eDate>28 de outubro de 2019</eDate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workTeam>
+        <member>
+            <identifier>A80424</identifier>
+            <name>José Pedro Saraiva de Carvalho</name>
+            <email>a80424@alunos.uminho.pt</email>
+            <photo path="photo.jpg"/>
+        </member>
+    </workTeam>
+    <abstract>
+        <p>Na mesma diretoria deste manifesto estão mais 6 ficheiros e 1 diretoria.</p>
+        <p>Nos ficheiros pr.xml e pr.xsl encontra-se a informação necessária para elaborar esta página em HTML. </p>
+        <p>No ficheiro w3.css encontra-se codigo css para ser implementado nas páginas de individuais de cada música.</p>
+        <p>O ficheiro datasetGen.xsl contém a stylesheet que criou as páginas em XML para cada música.</p>
+        <p>O ficheiro doc2html.xsl contém a stylesheet necessária para passar cada ficheiro individual xml para um ficheiro individual html.</p>
+        <p>O ficheiro arq-son-EVO.xml é o ficheiro em XML que conté informação de todas as músicas do arquivo sonoro.</p>
+        <p>A diretoria data contém todos os ficheiros em XML individuais de todas as músicas no arquivo sonoro.</p>
+        <p>O ficheiro arq.js contém o script necessário para criar o servidor.</p>
+        
+        <p>Este trabalho semanal consistia em desenvolver um servidor com nodeJS que disponibiliza as informações acerca das músicas com o auxílio do <i>nodeJS</i>.</p>
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Ficheiro XML do manifesto.</deliverable>
+        <deliverable path="pr.xsl">Stylesheet relativa à elaboração do HTML do manifesto.</deliverable>
+        <deliverable path="datasetGen.xsl">Stylesheet que elabora os ficheiros individuais em XML a partir do arquivo sonoro.</deliverable>
+        <deliverable path="doc2html.xsl">Stylesheet que elabora o HTML a partir dos ficheiros individuais XML.</deliverable>
+        <deliverable path="arq-som-EVO.xml">Ficheiro XML que apresenta as caraterísticas do arquivo sonoro.</deliverable>
+        <deliverable path="data">Diretoria com os ficheiros individuais XML.</deliverable>
+        <deliverable path="w3.css">CSS dos ficheiros individuais de XML</deliverable>
+    </deliverables>
+</pr>
