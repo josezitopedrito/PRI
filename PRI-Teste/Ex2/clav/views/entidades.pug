@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    .w3-container
+    h1 Entidades em que participa
+    a(href="http://localhost:3004/") 
+                button.w3-button.w3-hover-white.w3-teal Voltar ao Início
+    table.w3-table-all
+      tr
+        th Id
+      each ent in lista4
+        tr
+          td=ent.id

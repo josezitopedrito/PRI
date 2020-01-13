@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= CLAV
+  .w3-container
+    table.w3-table-all
+      tr
+        th estado
+        th sigla
+        th designacao
+        th id
+        th Observar
+      each tipo in lista
+        tr
+          td=tipo.estado
+          td=tipo.sigla
+          td=tipo.designacao
+          td=tipo.id
+          td
+            a(href="http://localhost:3004/tipologia/" + tipo.id) 
+                button.w3-button.w3-hover-white.w3-teal Ver Tipologia

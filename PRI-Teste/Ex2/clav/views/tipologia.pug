@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  h1= Tipologia
+  .w3-container
+    table.w3-table-all
+      tr
+        th estado
+        th sigla
+        th designacao
+      tr
+        td=lista.estado
+        td=lista.sigla
+        td=lista.designacao
+  a(href="http://localhost:3004/") 
+                button.w3-button.w3-hover-white.w3-teal Voltar ao Início
+
+  a(href="http://localhost:3004/tipologia/tip_" + lista.sigla + "/dono") 
+                button.w3-button.w3-hover-white.w3-teal Processos em que é dona
+  a(href="http://localhost:3004/tipologia/tip_" + lista.sigla + "/participante") 
+                button.w3-button.w3-hover-white.w3-teal Processos em que é participante
+  a(href="http://localhost:3004/tipologia/tip_" + lista.sigla + "/entidades") 
+                button.w3-button.w3-hover-white.w3-teal Entidades com quem participa

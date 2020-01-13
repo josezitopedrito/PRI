@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    .w3-container
+    h1 Processos em que é dona
+    a(href="http://localhost:3004/") 
+                button.w3-button.w3-hover-white.w3-teal Voltar ao Início
+    table.w3-table-all
+      tr
+        th Id
+      each pr1 in lista2
+        tr
+          td=pr1.id

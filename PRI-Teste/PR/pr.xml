@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr_final.dtd">
+<pr>
+    <meta>
+        <keyName>PRI2020-Teste</keyName>
+        <title>Teste de Avaliação </title>
+        <bDate>13 de janeiro de 2020</bDate>
+        <eDate>13 de janeiro de 2020</eDate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workTeam>
+        <member>
+            <identifier>A80424</identifier>
+            <name>José Pedro Saraiva de Carvalho</name>
+            <email>a80424@alunos.uminho.pt</email>
+            <photo path="photo.jpg"/>
+        </member>
+    </workTeam>
+    <abstract>
+        <p>No primeiro exercício foi utilizado o MongoDB para persistência de dados. Primeiro foi corrigido o dataset em JSON com a ajuda do JSON Formater <xref>https://jsonformatter.curiousconcept.com/</xref>.Após isto o ficheiro JSON resultante foi importado para o Mongo com o seguinte comando <i>mongoimport -d pubs -c pubs --jsonArray jcrpubs.json</i>.</p>
+        <p>De seguida na diretoria pubs escreva no terminal <i>npm update</i>, <i>npm i mongoose --save</i> (para obter o mongoose), <i>npm i axios --save</i> (para obter o axios) e, por fim, para correr a aplicação escreva <i>npm start</i></p>
+        <p>O último get não foi conseguido</p>
+        <p>A porta utilizada foi a 3003.</p>
+        <p>As respostas à primeira parte no ex dois encontram-se na diretoria Perguntas no ficheiro <i>ex.json</i></p>
+        
+        <p>Na segunda parte do segundo exercício http://localhost:3004/</p>
+        <p>Os dados foram obtidos diretamante da página da CLAV.</p>
+        <p>De seguida na diretoria pubs escreva no terminal <i>npm update</i>, <i>npm i mongoose --save</i> (para obter o mongoose), <i>npm i axios --save</i> (para obter o axios) e, por fim, para correr a aplicação escreva <i>npm start</i></p>
+        <p>A porta utilizada foi a 3004.</p>
+        <p>Neste exercício foram feitas apenas as alíneas 1,3(os pugs entidades, dono e participante nao se encontram corretos) e 4</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Ficheiro XML que contém a informação deste PR</deliverable>
+        <deliverable path="pr.xsl">Stylesheet que contém a informação deste PR</deliverable>
+        <deliverable path="../Ex1">Diretoria com o primeiro exercício do teste</deliverable>
+        <deliverable path="../Ex2">Diretoria com o segundo exercício do teste</deliverable>
+    </deliverables>
+</pr>
+
